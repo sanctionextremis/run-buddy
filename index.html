@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <title>Run Buddy</title>
-        <link rel="stylesheet" href="./assets/css/style.css"/>
-    </head>
-    <body>
-        <!-- navigation -->
-        <header>
-            <h1>
-                <a href="/">Run Buddy</a>
-            </h1>
-            <nav>
-                <!-- Unordered list element -->
-                 <ul>
-                    <!-- List item element -->
-                     <li>
-                        <!-- Anchor element -->
-                         <a href="#what-we-do">What We Do</a>
-                     </li>
-                     <li>
-                        <a href="#what-you-do">What You Do</a>
-                     </li>
-                     <li>
-                        <a href="#your-trainers">Your Trainers</a>
-                     </li>
-                     <li>
-                        <a href="#reach-out">Reach Out</a>
-                     </li>
-                 </ul>
-            </nav>
-        </header>
-        <!-- hero/jumbotron -->
-         <section class="hero">
-            <div class="hero-form">
-                <h3>Get Started Today</h3>
-                <p>Fill out this form and one of our trainers will schedule a consult</p>
-            <!-- Add form element -->
-            <form>
-                <label for="name">Enter full name</label>
-                <input class="form-input" type="text" placeholder="Your Name" name="name" id="name" />
-                <label for="email">Enter email address</label>
-                <input class="form-input" type="email" placeholder="Your Email" name="email" id="email" />
-                <label for="phone number">Enter a phone number</label>
-                <input class="form-input" type="tel" placeholder="Your Phone Number" name="phone" id="phone" />
-                <p>
-                    Have you worked out with a trainer before?
-                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
-                    <label for="trainer-yes">Yes</label>
-                    <input type="radio" name="traner-confirm" id="trainer-no" />
-                    <label for="trainer-no">No</label>
-                </p>
-                <p>
-                    <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
-                    <input type="checkbox" name="age-confirm" id="checkbox" />
-                </p>
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Run Buddy</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+
+<body>
+    <!-- navigation -->
+    <header>
+        <h1>
+            <a href="/">
+                RUN BUDDY
+            </a>
+        </h1>
+        <nav>
+            <!-- Unordered list element -->
+             <ul>
+                <!-- List item element -->
+                <li>
+                <!-- Anchor element -->
+                    <a href="#what-we-do">What We Do</a>
+                </li>
+                <li>
+                    <a href="#what-you-do">What You Do</a>
+                </li>
+                <li>
+                    <a href="#your-trainers">Your Trainers</a>
+                </li>
+                <li>
+                    <a href="#reach-out">Reach Out</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- hero/jumbotron -->
+    <section class="hero">
+        <div class="hero-form">
+            <h3>Get Started Today</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult</p>
+        <form>
+            <label for="name">Enter full name</label>
+            <input class="form-input" type="text" placeholder="Your Name" name="name" id="name" />
+            <label for="email">Enter email address</label>
+            <input class="form-input" type="email" placeholder="Your Email" name="email" id="email" />
+            <label for="phone number">Enter a phone number</label>
+            <input class="form-input" type="tel" placeholder="Your Phone Number" name="phone" id="phone" />
+            <p>
+                Have you worked out with a trainer before?
+                <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                <label for="trainer-yes">Yes</label>
+                <input type="radio" name="traner-confirm" id="trainer-no" />
+                <label for="trainer-no">No</label>
+            </p>
+            <p>
+                <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
+                <input type="checkbox" name="checkpoint1" id="checkbox" />
+            </p>
                 <button type="submit">
                     Get Running!
                 </button>
@@ -113,30 +117,35 @@
                     <h4>Endurance</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus autem dignissimos nam, dicta velit iste quae maxime esse quaerat, quo ab dolorum expedita dolores praesentium veniam nihil laudantium, tenetur suscipit!</p>
                 </div>
-                <img src="./assets/images/trainer-2.jpg" />
+                <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
             </article>
             <!-- third trainer bio -->
              <article class="trainer">
-                <img src="./assets/images/trainer-3.jpg" />
+                <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
                 <div class="trainer-bio text-right">
                     <h3>Harry "the Headband" Smith</h3>
                     <h4>Strength</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum praesentium consequuntur nostrum saepe placeat sequi doloribus quibusdam officiis modi provident, suscipit maiores nisi eum illo tempore tempora magni quidem cum.</p>
                 </div>
-             </article>
+            </article>
         </section> 
+
+
         <!-- "reach out section -->
          <section id="reach-out" class="contact">
             <h2 class="section-title secondary-border">Reach Out</h2>
             <div class="contact-info">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5602.040185344998!2d-75.6958618!3d45.4089344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05b15c414d85%3A0x54337f3e1652f95b!2s111%20Arlington%20Ave%2C%20Ottawa%2C%20ON%20K1R%205S4!5e0!3m2!1sen!2sca!4v1738770810875!5m2!1sen!2sca" style="border:0;" allowfullscreen="" loading="lazy">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5602.040185344998!2d-75.6958618!3d45.4089344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce05b15c414d85%3A0x54337f3e1652f95b!2s111%20Arlington%20Ave%2C%20Ottawa%2C%20ON%20K1R%205S4!5e0!3m2!1sen!2sca!4v1738770810875!5m2!1sen!2sca" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
                 </iframe>
-            </div>
-            <div>
-                <h3>Run Buddy</h3>
-                <p>Any questions or concerns before signing up?
-                    <br />
-                    Let us know and we'll be happy to talk to you!
+                <div>
+                    <h3>Run Buddy</h3>
+                    <p>Any questions or concerns before signing up?
+                        <br />
+                        Let us know and we'll be happy to talk to you!
                 </p>
                 <address>
                     55 Main Street <br />
@@ -145,14 +154,16 @@
                     P: 555.RUN.BUDZ (555.786.2389)<br />
                     E: <a href="mailto:info@runbuddy.io">info@runbuddy.io</a>
                 </address>
+                </div>
             </div>
         </section>
-         <!-- footer -->
-          <footer>
-            <h2>❤️ Made with love by Run Buddy.</h2>
-            <div>
-                <a href="#">Read Our Privacy Policy</a><br />&copy; 2019 Run Buddy, Inc.
-            </div>
-          </footer>
+
+    <!-- footer -->
+    <footer>
+        <h2>❤️ Made with love by Run Buddy.</h2>
+        <div>
+            <a href="#">Read Our Privacy Policy</a><br />&copy; 2019 Run Buddy, Inc.
+        </div>
+    </footer>
     </body>
 </html>
