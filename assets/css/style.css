@@ -165,27 +165,11 @@ section {
 .step-text p {
     color: #39a6b2;
     font-size: 18px;
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    border-bottom: 1px solid #39a6b2;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
 }
 
 .step h3 {
     color: #024e76;
     font-size: 46px;
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    border-bottom: 1px solid #39a6b2;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
     flex: 1 30%;
 }
 
@@ -193,14 +177,6 @@ section {
     font-size: 26px;
     line-height: 1.5;
     color: #024e76;
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    border-bottom: 1px solid #39a6b2;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
 }
 .step-info {
     flex: 2 70%;
@@ -227,7 +203,6 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: #024e76;
 }
 
 
